@@ -1,4 +1,54 @@
+:root{
+    --yours-blue :rgb(47, 210, 221);
+    --github-black :#24292E;
+}
+body{
+    background-color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+    
+}
+nav{
+    background-color: var(--github-black);
+    padding: 1rem 3rem;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    text-align: right;
+    color: var(--yours-blue);
+    
+}
 textarea{
     display: block;
+    border: 1px solid black;
+    border-radius: 0.2rem;
     width: 80%;
+    margin: 1rem;
+    padding: 1rem; 
+    background-color: aliceblue;
+    font-weight: 600;
+    
+}
+#output-div{
+    border : 1px solid black;
+    padding: 1rem;
+    margin: 1rem 1rem 1rem 1rem;
+    width: 80%;
+    font-weight: bold;
+    border-radius: 0.2rem;
+    background-color: aliceblue;
+    
+}
+
+#btn-translate{
+    background-color: azure;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid black;
+    font-weight: bolder;
+    background-color: var(--yours-blue);
+    border-radius: 0.35rem;
+    padding: 0.5rem;
+    margin: 1rem;
+    color: black;
+
 }
