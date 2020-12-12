@@ -12,7 +12,7 @@ function constructURL(text){
 
 function errorHandler(error){
     console.log("Error occured from server ",error )
-    alert("Server error ,try again with new text")
+    alert("Server error ,try again sometime later")
 }
 function doFetch(text){
     fetch(constructURL(text)).then(response =>response.json())
