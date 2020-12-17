@@ -26,7 +26,7 @@ textarea{
     margin: 1rem;
     padding: 1rem; 
     background-color: aliceblue;
-    font-weight: 600;
+    font-weight: bold;
     
 }
 #output-div{
@@ -54,6 +54,10 @@ textarea{
 }
  
 #error-div{
-    font-size : "large";
-    
+    font-size : larger;
+    font-weight: 1000;
+    margin: 1rem;
+    padding: 1rem;
+    color: rgba(255, 0, 0, 0.801);
+    text-align: center;
 }
