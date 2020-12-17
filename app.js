@@ -1,6 +1,7 @@
 var btnTranslate = document.querySelector("#btn-translate");
 var textInput = document.querySelector("#text-input");
 var outputDiv = document.querySelector("#output-div");
+var errorDiv = document.querySelector("#error-div");
 
 function constructMOckURL(text){
     return "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json" + "?" +"text=" + text;
@@ -12,7 +13,7 @@ function constructURL(text){
 
 function errorHandler(error){
     console.log("Error occured from server ",error )
-    alert("Server error ,try again sometime later")
+    errorDiv.innerText = "Server error ,try again sometime later"
 }
 function doFetch(text){
     fetch(constructURL(text)).then(response =>response.json())
